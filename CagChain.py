@@ -8,13 +8,13 @@ def process_block(ledger , stamp):
     return digest.hexdigest()
 
 path = "C:\\Users\\ochen\\Documents\\GitHub\\CagChain\\blocks\\block1.txt"
-
+data = open(path, "r")
 
 
 
 stamp = 0
 
-while not re.match("^0000" , process_block("test" , stamp)):
+while not re.match("^00" , process_block("test" , stamp)):
     stamp = stamp + 1
     
 print(stamp)
