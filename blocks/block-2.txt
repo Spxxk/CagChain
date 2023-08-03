@@ -1,0 +1,7 @@
+BLOCK-2
+4590543
+alice,arthur,15
+arthur,matt,10
+matt,melody,7
+melody,catherine,3
+catherine,aujin,1
